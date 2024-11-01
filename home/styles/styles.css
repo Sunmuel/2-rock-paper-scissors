@@ -1,0 +1,30 @@
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+button {
+    background-color: rgb(232, 222, 222);
+    align-items: center;
+    border: none;
+    border-radius: 1000px;
+    margin-right: 40px;
+    width: 250px;
+    height: 250px;
+}
+
+button:hover {
+    background-color: rgb(214, 199, 199);
+    border: none;
+    border-radius: 1000px;
+    margin-right: 40px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

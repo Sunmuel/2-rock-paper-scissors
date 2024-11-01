@@ -1,0 +1,108 @@
+#bottom-left-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#return-page {
+    background-color: rgb(232, 222, 222);
+    border: none;
+    border-radius: 1000px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#return-image {
+    width: 30px;
+    height: 30px;
+}
+
+#return-page:hover {
+    background-color: rgb(214, 199, 199);
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(232, 222, 222);
+    border: none;
+    border-radius: 1000px;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(214, 199, 199);
+    border: none;
+    border-radius: 1000px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#zombie, 
+#ghost,
+#witch,
+#profile-picture {
+    width: 100px;
+    height: auto;
+}
+
+#profile-picture-picker {
+    margin-right: 50px;
+}
+
+#computer-profile-picture {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#computer-profile {
+    background-color: rgb(232, 222, 222);
+    border: none;
+    border-radius: 1000px;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
+
+#choices {
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+}
+
+#player-choice,
+#computer-choice {
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+    background-color: rgb(232, 222, 222);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#text-result {
+    margin-top: 150px;
+    margin-left: -80px;
+    font-family: Itim;
+    text-align: center;
+}
+
+#result {
+    font-size: 60px;
+}
+
+#result-explanation {
+    font-size: 25px;
+}
